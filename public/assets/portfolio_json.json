@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "3km",
+      "picture": "https://play-lh.googleusercontent.com/vbtAmqt__0G2uNbPOA86RX-6mlryJi8cihYdfxFv_c-P2DEEW2Muwt9LXcmKvlqI1vU=w1052-h592-rw",
+      "title": "3km a Hyper-Local App",
+      "description":"3km is a Hyperlocal connecting platform built on patented technology, that securely syncs, access, and share News Post and Locate Business near you. And built in Ecommerce solution Like Shopping and Ordering Food.",
+      "live_link":"https://play.google.com/store/apps/details?id=com.bulbandkey.threekmseller&hl=en_IN&gl=US"
+    },
+    {
+        "id": 2,
+        "name": "1 Hub Restaurant",
+        "picture": "https://play-lh.googleusercontent.com/som_XdlJ8lRGW_ELS9VTRN2LJnl4NDn1qcbLYihNR9F8wS5rZXWcIzXtcHl_99oAwa4=w480-h960-rw",
+        "title": "1 Hub Restaurant a Food Ordering App",
+        "description":"The 1Hub Restaurant App communicates orders to restaurant partners from customers. The app streamlines the entire process of confirming to preparation to fulfilment.Restaurant owners and managers can now monitor the number of orders placed and maintain a record of all historical orders. The availability of the items can be managed as well. Managing online orders is super simple. Download now and grow your restaurant business with the 1Hub Restaurant App.",
+        "live_link":"https://play.google.com/store/apps/details?id=com.bulbandkey.onehubrestro&hl=en_I"
+      },
+      {
+        "id": 3,
+        "name": "Credentialing ",
+        "picture": "https://play-lh.googleusercontent.com/vbtAmqt__0G2uNbPOA86RX-6mlryJi8cihYdfxFv_c-P2DEEW2Muwt9LXcmKvlqI1vU=w1052-h592-rw",
+        "title": "Credentialing A hr-Document Managment system",
+        "description":"3km is a Hyperlocal connecting platform built on patented technology, that securely syncs, access, and share News Post and Locate Business near you. And built in Ecommerce solution Like Shopping and Ordering Food."
+      },
+      {
+        "id": 4,
+        "name": "Janata Stores",
+        "picture": "https://play-lh.googleusercontent.com/92i4hQ0PweJm2qQ9JM_lRYrOE7g88znsFDl4z_j3e9hu2VDESjZD03B6SnNlKJaLQw=w1052-h592-rw",
+        "title": "Janata Stores a Ecom App",
+        "description":"Janatastores.com is the leading brand of Janata Stores (Est.1971). With over 45 years of experience in serving the customers in Mumbai with the premium quality groceries and provisional items, Janata Stores now launches an online store broaden the reach to consumers across India.",
+        "live_link":"https://play.google.com/store/apps/details?id=com.janata"
+      }
+]

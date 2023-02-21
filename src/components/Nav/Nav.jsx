@@ -11,8 +11,8 @@ class Nav extends Component {
         <div className="container container__nav">
           <Logo />
           <Links />
-          <Quote />
-          <Search />
+          {/* <Quote />
+          <Search /> */}
         </div>
       </nav>
     );

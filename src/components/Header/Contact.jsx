@@ -5,14 +5,14 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact">
-        <a href="mailto:lormail@gmail.com">
+        <a href="mailto:contact@we4soft.com">
           <AiFillMail />
-          <span>lormail@gmail.com</span>
+          <span>contact@we4soft.com</span>
         </a>
 
-        <a href="tel:+212698584458">
+        <a href="tel:+917977382991">
           <AiFillPhone />
-          <span>+212698584458</span>
+          <span>+917977382991</span>
         </a>
       </div>
     );

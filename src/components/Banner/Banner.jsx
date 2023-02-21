@@ -9,7 +9,7 @@ class Banner extends Component {
             Let's Boost Your Business
             <br /> With The Latest Technology
           </h1>
-          <button className="btn btn-primary">Get In Touch</button>
+          <a className="btn btn-primary" href="https://forms.gle/CLFqVKq2FDzdRzXY6"  target="_blank" rel="noreferrer">Get In Touch</a>
         </div>
       </section>
     );

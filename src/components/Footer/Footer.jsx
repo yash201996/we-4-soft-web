@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Component } from "react";
 import { CgInstagram } from "react-icons/cg";
 import { AiFillTwitterSquare } from "react-icons/ai";
@@ -10,9 +11,7 @@ class Footer extends Component {
         <div className="about">
           <h2>We4Soft</h2>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste saepe
-            voluptatum repellat placeat aperiam. Molestiae consectetur molestias
-            magni laudantium doloremque!
+          We design and build digital solutions that accelerate growth and transform your business.
           </p>
           <ul className="footer__socials">
             <li>
@@ -37,12 +36,12 @@ class Footer extends Component {
           <ul>
             <li>
               <a href="#" className="text">
-                Cyber Security
+                Cloud Development
               </a>
             </li>
             <li>
               <a href="#" className="text">
-                IT COnsultant
+                IT Consultant
               </a>
             </li>
             <li>
@@ -57,8 +56,8 @@ class Footer extends Component {
           <ul>
             <li>
               <address className="text">
-                Office: 232 California Road Imperial
-              </address>
+                Office: 1301 Imperial Crest, Sector 26, Taloja, Navi Mumbai 410218.
+              </address> 
             </li>
             <li>
               <a href="tel:+917977382991" className="text">
@@ -66,8 +65,8 @@ class Footer extends Component {
               </a>
             </li>
             <li>
-              <a href="mailto:we4soft@mail.com" className="text">
-                Email: we4soft@mail.com
+              <a href="mailto:contact@we4soft.com" className="text">
+                Email: contact@we4soft.com
               </a>
             </li>
           </ul>

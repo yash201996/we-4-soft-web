@@ -21,10 +21,12 @@ class About extends Component {
             <p className="about_subtitle">
               From Fortune 1000 companies to next-generation startups, we partner long-term with our clients to drive business forward with thoughtful design, value-driven user experience, and scalable development
             </p>
+          
             <div className="about__buttons">
-              <button className="btn btn-primary">Get In Touch</button>
-              <a href="#services">
-                <span>Our Services</span>
+              <br />
+              <a className="btn btn-primary" href="https://forms.gle/CLFqVKq2FDzdRzXY6"  target="_blank" rel="noreferrer">Get In Touch</a>
+              <a href="#services" style={{paddingLeft :'10px' }} >
+                <span> Our Services</span>
                 <AiOutlineArrowDown />
               </a>
             </div>
