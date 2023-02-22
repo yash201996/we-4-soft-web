@@ -20,6 +20,7 @@
   color: var(--color-blue-primary);
 }
 .links__button {
+  margin-right: -20px;
   order: 5;
 }
 .search::after {
@@ -76,12 +77,26 @@
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
 @media screen and (max-width: 1024px) {
   .hide__links {
-    display: none;
+    display: block;
   }
   .hide__button {
     display: block;
   }
+  .links_show {
+    visibility: visible;
+    flex-direction: column;
+    position: fixed;
+    z-index: 11;
+    right: 0;
+    width: 20%;
+    top: 0;
+    bottom: 0;
+    background: var(--color-blue-primary);
+    gap: 0;
+    padding-top: 3rem;
+  }
   .links {
+    visibility: hidden;
     flex-direction: column;
     position: fixed;
     z-index: 11;

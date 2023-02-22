@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { RiMenu3Line } from "react-icons/ri";
+import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 class Links extends Component {
   constructor() {
     super();
@@ -23,21 +23,26 @@ class Links extends Component {
         linksVisibility: !this.state.linksVisibility
       };
     });
+    console.log(this.state.linksVisibility);
   }
-
   render() {
     return (
       <>
         <div className="links__button hide__button">
           <button className="btn menu" onClick={this.toggleVisibility}>
-            <RiMenu3Line />
+            <RiMenu3Line color="#000000" size={20}/>
           </button>
         </div>
         <div
-          className={`links ${
-            !this.state.linksVisibility ? "hide__links" : ""
+            className={`links${
+            this.state.linksVisibility ? "_show" : ""
           }`}
         >
+          <div className="hide__button">
+          <button className="btn menu" onClick={this.toggleVisibility}>
+            <RiCloseLine size={30} color="#000000" />
+          </button>
+        </div>
           {this.links.map((link, index) => {
             return (
               <a
