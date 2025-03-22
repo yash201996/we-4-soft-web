@@ -27,7 +27,7 @@ class PortfolioPage extends Component {
               </>
             );
           }
-          return                <PortfolioPage img={data.picture} title={data.title} text={data.text} />
+          return  <PortfolioPage img={data.picture} title={data.title} text={data.text} />
           ;
         })}
       </section>
